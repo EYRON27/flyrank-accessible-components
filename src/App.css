@@ -1,0 +1,7 @@
+/* App-specific style resets */
+#root {
+  max-width: 100% !important;
+  margin: 0 !important;
+  text-align: left !important;
+  border: none !important;
+}
