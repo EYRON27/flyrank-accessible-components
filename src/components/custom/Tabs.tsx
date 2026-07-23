@@ -19,8 +19,6 @@ export const Tabs: React.FC<TabsProps> = ({
 }) => {
   const tabRefs = useRef<{ [key: string]: HTMLButtonElement | null }>({});
 
-  const activeIndex = items.findIndex((item) => item.id === activeTabId);
-
   // Keyboard navigation helpers
   const handleKeyDown = (e: React.KeyboardEvent<HTMLButtonElement>, index: number) => {
     let targetIndex = -1;

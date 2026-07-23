@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Sparkles, Eye, ShieldAlert, HeartPulse, Code2 } from "lucide-react";
+import { Sparkles, ShieldAlert, HeartPulse, Code2 } from "lucide-react";
 import { Modal } from "./components/custom/Modal";
 import { Tabs } from "./components/custom/Tabs";
 import { Disclosure } from "./components/custom/Disclosure";
@@ -12,14 +12,14 @@ import {
   DialogHeader as ShadcnDialogHeader,
   DialogTitle as ShadcnDialogTitle,
   DialogTrigger as ShadcnDialogTrigger,
-} from "@/components/ui/dialog";
+} from "./components/ui/dialog";
 
 import {
   Tabs as ShadcnTabs,
   TabsContent as ShadcnTabsContent,
   TabsList as ShadcnTabsList,
   TabsTrigger as ShadcnTabsTrigger,
-} from "@/components/ui/tabs";
+} from "./components/ui/tabs";
 
 export default function App() {
   // State for Custom components
